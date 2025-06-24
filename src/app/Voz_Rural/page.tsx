@@ -41,7 +41,7 @@ const fadeUpVariant = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
-const DATA_URL = "/data/respuestas_clasificadas.json";
+const DATA_URL = "/Data/respuestas_clasificadas.json";
 const ALEATORIOS_CANT = 2;
 const ALEATORIOS_MS = 25000;
 
