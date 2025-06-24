@@ -237,7 +237,7 @@ export default function VozRuralPage() {
           variants={fadeUpVariant}
           style={{ fontFamily: "var(--font-sans)" }}
           >
-        Esta página visualiza la voz de las parroquias rurales del Ecuador mediante mensajes representativos y curiosidades extraidas de entrevistas con sus representantes. Podrás explorar los mensajes más recurrentes , testimonios aleatorios y datos destacados, organizados por provincia y GAD, para conoces mejor la realidad rural del país.
+        Esta página visualiza la voz de las parroquias rurales del Ecuador mediante mensajes representativos y curiosidades extraídas de entrevistas con sus representantes. Podrás explorar los mensajes más recurrentes , testimonios aleatorios y datos destacados, organizados por provincia y GAD, para conocer mejor la realidad rural del país.
       </motion.p>
         <motion.h2
         className="text-2xl font-semibold mb-4 font-heading text-center"
