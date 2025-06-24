@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #444444;
+  --font-sans: "Baloo 2", sans-serif;
+  --font-heading: "Baloo 2", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #444444;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Tipografía para títulos */
+.font-heading {
+  font-family: var(--font-heading);
+  font-weight: 800;
+}
+
+/* =====================
+   MAPA ECUADOR - SVG
+===================== */
+.mapa-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.mapa-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px; /* o 100vh si quieres toda la pantalla */
+}
+
+
+.mapa-svg {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  pointer-events: none;
+  max-width: 220px;
+  z-index: 1000;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .mapa-container {
+    padding: 0.5rem;
+  }
+
+  .mapa-svg {
+    max-height: 300px;
+  }
+
+  .tooltip {
+    font-size: 0.75rem;
+    max-width: 180px;
+  }
+}
+
+/* Tipografía para títulos */
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+}
