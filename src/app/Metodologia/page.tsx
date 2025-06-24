@@ -165,21 +165,58 @@ export default function MetodologiaPage() {
     gap: "1rem",
   }}
 >
-  <p>
-    Identidad Rural surge frente a una realidad evidente: existe una brecha de comunicación entre las administraciones públicas y los territorios rurales. Esta brecha no se limita al acceso a la información, sino que también atraviesa los lenguajes, los formatos y los canales con los que se construye el vínculo entre lo institucional y lo local.
-  </p>
+<p>
+  Identidad Rural surge frente a una realidad evidente: existe una brecha de comunicación entre las administraciones públicas y los territorios rurales. Esta brecha no se limita al acceso a la información, sino que también atraviesa los lenguajes, los formatos y los canales con los que se construye el vínculo entre lo institucional y lo local.
+</p>
 
-  <p>
-    Nuestra propuesta busca acortar esa brecha trabajando desde los propios territorios, con sus voces, pero incorporando tonos, formatos y tendencias contemporáneas. A esto se suma un enfoque intergeneracional que conecta memorias y saberes históricos con nuevos liderazgos y herramientas actuales.
-  </p>
+<p>
+  Nuestra propuesta busca acortar esa brecha trabajando desde los propios territorios, con sus voces, pero incorporando tonos, formatos y tendencias contemporáneas. A esto se suma un enfoque intergeneracional que conecta memorias y saberes históricos con nuevos liderazgos y herramientas actuales.
+</p>
 
-  <p>
-    Aunque no se trata de una intervención de gran escala, representa un paso concreto hacia los principios del Estado Abierto, impulsando la transparencia y la participación ciudadana digital desde la ruralidad.
-  </p>
+<p>
+  Aunque no se trata de una intervención de gran escala, representa un paso concreto hacia los principios del Estado Abierto, impulsando la transparencia y la participación ciudadana digital desde la ruralidad. Lo hacemos reconociendo el derecho a habitar el espacio público digital, amparado por los marcos normativos vigentes.
+</p>
 
-  <p>
-    Lo hacemos reconociendo el derecho a habitar el espacio público digital, amparado por los marcos normativos vigentes.
-  </p>
+<p>
+  <strong>2.1. Proceso de recolección de datos</strong>
+</p>
+
+<p>
+  La recopilación de información se llevó a cabo a través de entrevistas dirigidas a los representantes de los Gobiernos Autónomos Descentralizados Parroquiales (GAD). A cada representante se le solicitó responder tres preguntas clave. Las respuestas fueron entregadas en su mayoría en formato de video, grabados por los mismos representantes y enviados a CONAGOPARE. En algunos casos, las respuestas fueron entregadas por escrito. En total, se recibieron aproximadamente 160 videos con información valiosa sobre las realidades de cada parroquia.
+</p>
+
+<p>
+  <strong>2.2. Análisis y procesamiento de la información</strong>
+</p>
+
+<p>
+  Para procesar los videos de manera eficiente, se utilizó un software de transcripción automática, con el fin de convertir el contenido audiovisual en texto. Luego, se tabularon los datos y, posteriormente, se analizaron las respuestas con el siguiente enfoque: identificación de los problemas más frecuentes por parroquia, provincia y región. Clasificación y análisis de los mensajes dirigidos al Ecuador.
+</p>
+
+<p>
+  <strong>2.3. Transmedia para la participación ciudadana</strong>
+</p>
+
+<p>
+  La metodología articula una estrategia transmedia con acciones presenciales, como conversatorios, talleres y espacios de formación que fortalecen capacidades en el territorio. Estos encuentros permiten trabajar procesos de culturización digital desde lo local, complementando para fortalecer las narrativas locales y empoderar a los actores del territorio.
+</p>
+
+<p>
+  <strong>2.4. Periodismo de datos</strong>
+</p>
+
+<p>
+  Desde un enfoque de periodismo de datos aplicado a lo local, trabajamos con información pública para habilitar nuevas formas de contar lo que ocurre en los territorios, con evidencia, contexto y sentido propio. Esta línea metodológica busca romper la dependencia informativa desde los medios locales rurales hacia las grandes agencias de noticias, permitiendo que, mediante transferencia de capacidades, el periodismo construya sus propias narrativas y así disputar la agenda nacional.
+</p>
+
+<p>
+  El análisis de open data, cruzado con testimonios y dinámicas propias de cada lugar, permite abrir una conversación distinta sobre lo rural: más informada, más justa, más conectada con quienes viven y transforman el territorio día a día: con identidad.
+</p>
+
+<p>
+  Transmedia y periodismo de datos para escuchar, conectar y actuar.
+</p>
+
 </motion.div>
 
       {/* 🌐 Transmedia para la participación ciudadana */}
