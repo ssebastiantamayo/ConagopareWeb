@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-
 import { motion } from "framer-motion";
 
 const buttonClasses = {
@@ -27,20 +26,12 @@ const modulos = [
     ],
     extra: (
       <p className="mt-2 text-sm text-gray-600">
-        Casos: {" "}
-        <a
-          href="https://tierraderesistentes.com"
-          target="_blank"
-          className="underline text-blue-600"
-        >
+        Casos:{" "}
+        <a href="https://tierraderesistentes.com" target="_blank" className="underline text-blue-600">
           Tierra de Resistentes
         </a>
-        , {" "}
-        <a
-          href="https://animalpolitico.com"
-          target="_blank"
-          className="underline text-blue-600"
-        >
+        ,{" "}
+        <a href="https://animalpolitico.com" target="_blank" className="underline text-blue-600">
           El país de las dos mil fosas
         </a>
       </p>
@@ -66,8 +57,7 @@ const modulos = [
       </p>
     ),
     video: "https://www.youtube.com/embed/LwsDfMAknQM",
-    download:
-      "/sources/módulo 2 - base de datos - presidentes gadpr por género 2023 - Hoja 1.csv",
+    download: "/sources/módulo 2 - base de datos - presidentes gadpr por género 2023 - Hoja 1.csv",
   },
   {
     color: "blue",
@@ -83,19 +73,14 @@ const modulos = [
     ],
     extra: (
       <p className="mt-2 text-sm text-gray-600">
-        Base de práctica: {" "}
-        <a
-          href="https://www.educacion.gob.ec"
-          target="_blank"
-          className="underline text-blue-600"
-        >
+        Base de práctica:{" "}
+        <a href="https://www.educacion.gob.ec" target="_blank" className="underline text-blue-600">
           Registro del Ministerio de Educación
         </a>
       </p>
     ),
     video: "https://www.youtube.com/embed/MoJeesXe33k",
-    download:
-      "/sources/módulo 3 - registro-administrativo-historico_2009-2024-inicio.csv",
+    download: "/sources/módulo 3 - registro-administrativo-historico_2009-2024-inicio.csv",
   },
   {
     color: "orange",
@@ -115,8 +100,7 @@ const modulos = [
       </p>
     ),
     video: "https://www.youtube.com/embed/06Rp90yG-cw",
-    download:
-      "/sources/módulo 4 - base de datos - presidentes gadpr por género 2023 - Hoja 1.csv",
+    download: "/sources/módulo 4 - base de datos - presidentes gadpr por género 2023 - Hoja 1.csv",
   },
   {
     color: "red",
@@ -124,12 +108,8 @@ const modulos = [
     title: "Historias con datos sobre desnutrición crónica infantil (DCI)",
     desc: (
       <span>
-        Aplica todo lo aprendido para investigar sobre DCI usando el visor oficial {" "}
-        <a
-          href="https://informacion.infancia.gob.ec"
-          target="_blank"
-          className="underline text-blue-600"
-        >
+        Aplica todo lo aprendido para investigar sobre DCI usando el visor oficial{" "}
+        <a href="https://informacion.infancia.gob.ec" target="_blank" className="underline text-blue-600">
           informacion.infancia.gob.ec
         </a>{" "}
         y cuenta historias con datos reales.
@@ -142,7 +122,7 @@ const modulos = [
     ],
     extra: (
       <p className="mt-2 text-sm text-gray-600">
-        Tu historia puede ser difundida en medios aliados
+        <strong>Difusión:</strong> Tu historia puede ser difundida en medios aliados.
       </p>
     ),
     video: "https://www.youtube.com/embed/q8NDE-t2AB4",
@@ -152,14 +132,14 @@ const modulos = [
 
 export default function TallerPeriodismoPage() {
   const [showForm, setShowForm] = useState(false);
+
   return (
     <div className="px-4 py-16 max-w-5xl mx-auto">
       <h1 className="text-4xl font-bold text-gray-800 text-center mb-4">
         Taller de Periodismo de Datos
       </h1>
       <p className="text-gray-600 text-lg text-center mb-16">
-        Capacitamos a periodistas comunitarios para visibilizar las problemáticas
-        de las parroquias rurales mediante el periodismo de datos.
+        Capacitamos a periodistas comunitarios para visibilizar las problemáticas de las parroquias rurales mediante el periodismo de datos.
       </p>
 
       <div className="grid gap-12">
@@ -190,15 +170,31 @@ export default function TallerPeriodismoPage() {
                   ))}
                 </ul>
                 {mod.extra}
-                <div className="mt-4">
-                  <a
-                    href={mod.download}
-                    download
-                    className={`text-sm font-semibold bg-white px-5 py-2 rounded-lg border transition-all duration-300 ${buttonClasses[mod.color]}`}
-                  >
-                    Descargar Recurso
-                  </a>
-                </div>
+<div className="mt-4">
+  <a
+    href={mod.download}
+    download
+    className={`text-sm font-semibold bg-white px-5 py-2 rounded-lg border transition-all duration-300 ${buttonClasses[mod.color]}`}
+  >
+    Descargar Recurso
+  </a>
+</div>
+
+{mod.number === 5 && (
+  <div className="border-l-4 border-red-400 pl-4 bg-red-50 p-4 rounded-md text-sm text-gray-700 mt-6">
+    <p className="font-semibold text-red-700 mb-2">📌 Trabajo final</p>
+    <p>
+      Redacta un artículo utilizando todo lo aprendido, especialmente los detalles del módulo 5. Una vez que lo tengas listo, envíalo a{" "}
+      <a href="mailto:sebastian.tamayo@conagopare.gob.ec" className="underline text-blue-600">
+        sebastian.tamayo@conagopare.gob.ec
+      </a>.
+    </p>
+    <p className="mt-2">
+      Los aportes seleccionados aparecerán en la sección <strong>Difunde - Editorial</strong>.
+    </p>
+  </div>
+)}
+
               </div>
               <div>
                 <iframe
@@ -213,9 +209,6 @@ export default function TallerPeriodismoPage() {
         ))}
       </div>
 
-      
-
-      {/* Evaluación final con botón mostrar/ocultar */}
       <div className="mt-20 text-center">
         <button
           onClick={() => setShowForm(!showForm)}
@@ -245,8 +238,6 @@ export default function TallerPeriodismoPage() {
           </>
         )}
       </div>
-
-
     </div>
   );
 }
