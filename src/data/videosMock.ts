@@ -775,7 +775,7 @@ export const videosMock: Video[] = [
   {
     id: 90,
     provincia: "Zamora Chinchipe",
-    canton: "Nangaritza",
+    canton: "Paquisha",
     parroquia: "Nuevo Quito",
     videoId: "FHMqUykYKP4",
     titulo: "Gobierno Parroquial Nuevo Quito"
@@ -1120,7 +1120,7 @@ export const videosMock: Video[] = [
   {
     id: 133,
     provincia: "Manabí",
-    canton: "Santa Ana",
+    canton: "Portoviejo",
     parroquia: "Pueblo Nuevo",
     videoId: "TRv_oWRqmPY",
     titulo: "Gobierno Parroquial Pueblo Nuevo"
