@@ -171,7 +171,7 @@ export default function Difunde() {
     >
       ⬇️ Descargar cuña radial
     </a>
-  </div>
+  </div> <br></br> 
 
               <h2 className="text-3xl font-heading text-center mb-6">
         Transparencia con rostro rural: hacia una justicia informativa desde los territorios
