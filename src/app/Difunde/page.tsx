@@ -140,18 +140,6 @@ export default function Difunde() {
       {/* Recursos */}
       <section id="recursos" className="scroll-mt-24 max-w-5xl mx-auto text-center">
   <h3 className="text-2xl font-bold text-gray-800 mb-8">Otros recursos</h3>
-
-      <h2 className="text-3xl font-heading text-center mb-6">
-        Transparencia con rostro rural: hacia una justicia informativa desde los territorios
-      </h2>
-      <div className="flex justify-center mb-6">
-        <iframe
-          src="/Docs/articuloTF.pdf"
-          width="794"
-          height="600"
-          className="rounded-md border shadow"
-        ></iframe>
-      </div>
         
   <div className="bg-[#f7f5f0] px-6 py-5 rounded-xl shadow-lg border border-green-300 inline-block w-full max-w-xl text-left">
     <div className="flex items-start gap-3 mb-3">
@@ -184,6 +172,18 @@ export default function Difunde() {
       ⬇️ Descargar cuña radial
     </a>
   </div>
+
+              <h2 className="text-3xl font-heading text-center mb-6">
+        Transparencia con rostro rural: hacia una justicia informativa desde los territorios
+      </h2>
+      <div className="flex justify-center mb-6">
+        <iframe
+          src="/Docs/articuloTF.pdf"
+          width="794"
+          height="600"
+          className="rounded-md border shadow"
+        ></iframe>
+      </div>
 </section>
 
 
