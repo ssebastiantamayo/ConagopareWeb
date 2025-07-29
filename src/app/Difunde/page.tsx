@@ -171,11 +171,12 @@ export default function Difunde() {
     >
       ⬇️ Descargar cuña radial
     </a>
-  </div> <br></br> 
+  </div> 
 
-              <h2 className="text-3xl font-heading text-center mb-6">
-        Transparencia con rostro rural: hacia una justicia informativa desde los territorios
-      </h2>
+<h2 className="text-3xl font-heading text-center mb-8">
+  Transparencia con rostro rural: hacia una justicia informativa desde los territorios
+</h2>
+
       <div className="flex justify-center mb-6">
         <iframe
           src="/Docs/articuloTF.pdf"
