@@ -200,7 +200,7 @@ export default function Difunde() {
                 </div>
               </div>
             </Link>
-<Link href="/Articulos/src/app/Articulos/Entre el fogón y el espacio digital: Relaciones intergeneracionales en la ruralidad actual" className="block group">
+<Link href="/Articulos/Entre el fogón y el espacio digital: Relaciones intergeneracionales en la ruralidad actual" className="block group">
               <div className="flex bg-white shadow border border-gray-200 rounded-lg overflow-hidden hover:bg-gray-50 transition">
                 {/*} <img
                       src="/images/difunde/revista-rural.png"
