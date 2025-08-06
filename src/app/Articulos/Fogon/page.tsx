@@ -204,26 +204,26 @@ export default async function ArticuloPage() {
         <div className="space-y-4">
 
           {/* Artículo 1 */}
-          <Link href="/Articulos/articulo-empleo-rural" className="block group">
-            <div className="flex bg-white shadow border border-gray-200 rounded-lg overflow-hidden hover:bg-gray-50 transition">
-              {/*} <img
-          src="/images/difunde/revista2.png"
-          alt="Empleo rural"
-          className="w-24 h-24 object-cover"
-        />{*/}
-              <div className="p-3 flex-1 text-left">
-                <h4 className="text-base font-semibold text-gray-900 leading-snug group-hover:underline mb-1">
-                  El empleo en las parroquias rurales: una deuda estructural
-                </h4>
-                <span className="bg-black text-white text-xs font-bold px-2 py-1 rounded inline-block mb-1">
-                  AUTOR/A 
-                </span>
-                <p className="text-sm text-gray-500 italic">
-                  Análisis de los factores que afectan la generación de empleo en territorios rurales ecuatorianos.
-                </p>
+            <Link href="/Articulos/articulo-tf" className="block group">
+              <div className="flex bg-white shadow border border-gray-200 rounded-lg overflow-hidden hover:bg-gray-50 transition">
+                {/*} <img
+                      src="/images/difunde/revista-rural.png"
+                      alt="Transparencia con rostro rural"
+                      className="w-24 h-24 object-cover"
+                    />{*/}
+                <div className="p-3 flex-1 text-left">
+                  <h4 className="text-base font-semibold text-gray-900 leading-snug group-hover:underline mb-1">
+                    Transparencia con rostro rural: hacia una justicia informativa desde los territorios
+                  </h4>
+                  <span className="bg-black text-white text-xs font-bold px-2 py-1 rounded inline-block mb-1">
+                    IRMA JARA IÑIGUEZ
+                  </span>
+                  <p className="text-sm text-gray-500 italic">
+                    Profesora e Investigadora · Instituto de Altos Estudios Nacionales (IAEN)
+                  </p>
+                </div>
               </div>
-            </div>
-          </Link>
+            </Link>
 
         </div>
       </div>
