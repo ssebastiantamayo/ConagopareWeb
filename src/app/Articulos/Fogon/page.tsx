@@ -57,7 +57,7 @@ export default async function ArticuloPage() {
           la indiferencia.
           {"\n\n"}
           Cohabitar el territorio rural desde la oralidad territorial y desde las narrativas digitales,
-          muchas veces pasa por una oscilación identitaria , que, en este caso, a veces llevaría
+          muchas veces pasa por una oscilación identitaria<sup className="text-[10px] leading-3 shrink-0">[1]</sup> , que, en este caso, a veces llevaría
           más hacia lo digital y otras a la convivencia alrededor del fogón, identidad oscilante
           entre la narrativa territorial y la digital. Lo requiere conocer y reconocer las
           relaciones socioculturales intergeneracionales, que entrecruza la memoria, el territorio
@@ -72,13 +72,13 @@ export default async function ArticuloPage() {
           <b>El fogón significante en la ruralidad</b>
           {"\n\n"}
           En el mundo rural, desde diferentes denominaciones, el fogón, la tulpa, el brasero,
-          ha sido una práctica social cargada de simbolismo cultural (HAAL 2023) . Más que un elemento
+          ha sido una práctica social cargada de simbolismo cultural (HAAL 2023)<sup className="text-[10px] leading-3 shrink-0">[2]</sup> . Más que un elemento
           funcional, es un espacio multifacético que une. Se ha constituido en un lenguaje que facilita
           las relaciones entre seres humanos, la naturaleza y el entorno construido. Conecta la naturaleza
           y la espiritualidad, contribuyendo a la construcción de su identidad rural.
           {"\n\n"}
           Por tanto, el fogón es mucho más que un simple lugar para cocinar; representa un centro de
-          la vida familiar y comunitario, un espacio de reunión y transmisión de tradiciones , así como
+          la vida familiar y comunitario, un espacio de reunión y transmisión de tradiciones<sup className="text-[10px] leading-3 shrink-0">[3]</sup> , así como
           de modos de vida, conocimientos, espiritualidad, pero sobre todo de saberes y visión del mundo,
           en un entramado del sentido de comunidad de trasmisión intergeneracional, preservando la identidad.
           {/* Inserta esto justo donde quieres que aparezca la imagen dentro del texto */}
@@ -107,21 +107,21 @@ export default async function ArticuloPage() {
           {/* Bloque de notas al pie */}
           <div className="mt-10 pt-4 border-t border-gray-400 space-y-2" role="list">
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">1.</span>
+              <span className="text-[10px] leading-3 shrink-0">[1]</span>
               <span className="text-sm text-gray-600">
                 Según Reascos Nelson la oscilación identitaria, característica de los ethos barrocos,
                 en el inconsciente la población mestiza va entre la identidad de los pueblos originarios y lo llamado blanco.
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">2.</span>
+              <span className="text-[10px] leading-3 shrink-0">[2]</span>
               <span className="text-sm text-gray-600">
                 Historia Agraria de América Latina Revista Internacional sobre la historia de las sociedades rurales
                 latinoamericanas 2023.
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">3.</span>
+              <span className="text-[10px] leading-3 shrink-0">[3]</span>
               <span className="text-sm text-gray-600">
                 Consejo Regional Indígena del Cauca. 2023. El fogón, un espacio sagrado.{" "}
                 <a
@@ -139,13 +139,13 @@ export default async function ArticuloPage() {
 
           Si bien se insiste en evidenciar las brechas en el acceso al mundo digital y a la tecnología,
           según datos, el 81% de los habitantes de zonas urbanas a nivel mundial utilizaban internet,
-          en comparación con sólo el 50% de la población en áreas rurales (UIT 2023).
+          en comparación con sólo el 50% de la población en áreas rurales (UIT 2023)<sup className="text-[10px] leading-3 shrink-0">[4]</sup>.
           El uso de redes sociales en los territorios rurales es un hecho. En Ecuador de los 17,5 millones
           de habitantes, 13 millones utilizan las redes sociales. Hay 15,6 millones de líneas de
           telefonía móvil en el país y 9,1 millones de personas acceden a las redes sociales
-          desde dispositivos móviles. Fa-cebook fue utilizado por 12 millones de personas en
+          desde dispositivos móviles. Facebook fue utilizado por 12 millones de personas en
           el país en enero de 2020; la siguiente plataforma más popular fue Instagram, con
-          cuatro millones de usuarios (Del Alcázar 2020).
+          cuatro millones de usuarios (Del Alcázar 2020)<sup className="text-[10px] leading-3 shrink-0">[5]</sup>.
           {/* Inserta esto justo donde quieres que aparezca la imagen dentro del texto */}
           <figure className="my-6 text-center">
             <img
@@ -160,37 +160,37 @@ export default async function ArticuloPage() {
           Repasando varios estudios y reportajes sobre el uso de redes sociales en la ruralidad,
           se observan dos tendencias, por una parte, su uso para la afirmación identitaria,
           “el uso de las redes sociales brinda nuevas oportunidades para expresar nuestra identidad al
-          mundo”; “en plataformas como Instagram, Facebook y TikTok las personas jóvenes pueden
+          mundo”<sup className="text-[10px] leading-3 shrink-0">[6]</sup>; “en plataformas como Instagram, Facebook y TikTok las personas jóvenes pueden
           compartir sus experiencias, tradiciones y cultura, promoviendo el orgullo por sus raíces
-          y generando una visibilidad positiva de la vida rural”.
+          y generando una visibilidad positiva de la vida rural”<sup className="text-[10px] leading-3 shrink-0">[7]</sup>.
           {"\n\n"}
           Por otra parte, las redes sociales se usan como el medio para la expresión aspiracional,
           “reflejan aspiraciones de educación superior y ocupaciones profesionales o técnicas
-          no agrícolas” ; “las redes sociales también facilitan el acceso a recursos educativos,
+          no agrícolas”<sup className="text-[10px] leading-3 shrink-0">[8]</sup> ; “las redes sociales también facilitan el acceso a recursos educativos,
           tutoriales y noticias que amplían las oportunidades de aprendizaje de las juventudes.
           Desde videos sobre técnicas de cultivo hasta tutoriales de marketing digital, estas
           plataformas ofrecen contenido relevante y accesible que les permiten aprender
-          habilidades necesarias para desarrollarse profesionalmente o emprender sus propios proyectos”.
+          habilidades necesarias para desarrollarse profesionalmente o emprender sus propios proyectos”<sup className="text-[10px] leading-3 shrink-0">[9]</sup>.
           {/* Bloque de notas al pie que continúa numeración */}
           {/* Bloque de notas al pie que continúa numeración */}
           <div className="mt-10 pt-4 border-t border-gray-400 space-y-2" role="list">
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">4.</span>
+              <span className="text-[10px] leading-3 shrink-0">[4]</span>
               <span className="text-sm text-gray-600">Unión Internacional de Telecomunicaciones.</span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">5.</span>
+              <span className="text-[10px] leading-3 shrink-0">[5]</span>
               <span className="text-sm text-gray-600">Citado en DOI 10.17141/mundosplurales.2.2022.5586</span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">6.</span>
+              <span className="text-[10px] leading-3 shrink-0">[6]</span>
               <span className="text-sm text-gray-600">
                 Waters, William F., Martin Baca, Shirley Tipanquiza, y Emily McGrath. 2022.
                 «Cambio De Identidad Y Uso De Facebook En Adolescentes Y jóvenes indígenas De La Sierra Central Ecuatoriana».
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">7.</span>
+              <span className="text-[10px] leading-3 shrink-0">[7]</span>
               <span className="text-sm text-gray-600">
                 <a
                   href="https://juventudesrurales.iica.int/juventudes-rurales-y-su-acceso-a-las-redes-sociales/"
@@ -202,7 +202,7 @@ export default async function ArticuloPage() {
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">8.</span>
+              <span className="text-[10px] leading-3 shrink-0">[8]</span>
               <span className="text-sm text-gray-600">
                 Waters, William F., Martin Baca, Shirley Tipanquiza, y Emily McGrath. 2022.
                 «Cambio De Identidad Y Uso De Facebook En Adolescentes Y jóvenes indígenas De La Sierra Central Ecuatoriana».
@@ -221,13 +221,13 @@ export default async function ArticuloPage() {
           Sin embargo, es recurrente encontrar expresión de quienes se definen como
           creadores de contenido, resaltando el valor de su cultura a través de las redes
           sociales “me veo como representante de mi pueblo kichwa, debemos demostrar la capacidad
-          que tenemos”, “Trasmitir lo que somos un solo corazón, una solo mete, una sola fuerza”.
+          que tenemos”, “Trasmitir lo que somos un solo corazón, una solo mete, una sola fuerza”<sup className="text-[10px] leading-3 shrink-0">[10]</sup>.
           Incluso de quienes trasciende las fronteras, que viven en otros países pero que
           mantienen nexos con su cultura que expresan “…no hay una manera de ser migrante o
-          una manera de ser indígena o…”.  O agrupaciones de jóvenes de arte y cultura,
+          una manera de ser indígena o…”<sup className="text-[10px] leading-3 shrink-0">[11]</sup>.  O agrupaciones de jóvenes de arte y cultura,
           quienes también usan las redes para difundir contenidos sobre tradiciones y arte de
           sus territorios, así como a través de la autogestión realizar eventos en sus
-          territorios para afirmar su identidad.
+          territorios para afirmar su identidad<sup className="text-[10px] leading-3 shrink-0">[12]</sup>.
           {"\n\n"}
           <b>En síntesis: el fogón y el espacio digital  </b>
           {"\n\n"}
@@ -246,7 +246,7 @@ export default async function ArticuloPage() {
           mensajes sin comunidad, generan conexiones, pero no vínculos (Hun 2024).
           <div className="mt-10 pt-4 border-t border-gray-400 space-y-2" role="list">
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">9.</span>
+              <span className="text-[10px] leading-3 shrink-0">[9]</span>
               <span className="text-sm text-gray-600">
                 <a
                   href="https://juventudesrurales.iica.int/juventudes-rurales-y-su-acceso-a-las-redes-sociales/"
@@ -258,7 +258,7 @@ export default async function ArticuloPage() {
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">10.</span>
+              <span className="text-[10px] leading-3 shrink-0">[10]</span>
               <span className="text-sm text-gray-600">
                 <a
                   href="https://revistamundodiners.com/mundo-diners-plus/3-indigenas-tik-tok/"
@@ -270,7 +270,7 @@ export default async function ArticuloPage() {
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">11.</span>
+              <span className="text-[10px] leading-3 shrink-0">[11]</span>
               <span className="text-sm text-gray-600">
                 <a
                   href="https://www.instagram.com/reel/C3gm8PML0wj/?hl=es"
@@ -282,7 +282,7 @@ export default async function ArticuloPage() {
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">12.</span>
+              <span className="text-[10px] leading-3 shrink-0">[12]</span>
               <span className="text-sm text-gray-600">
                 Como el Colectivo Runa Urbano en Salcedo, el Colectivo Runa Kuna en Cuenca,
                 Colectivo Runa Warmikuna Galápagos en Santa Cruz, entre otros.
@@ -313,7 +313,7 @@ export default async function ArticuloPage() {
           manifestaciones identitarias que están latentes en los territorios rurales.
           A través generaciones y los distintos rostros que aparecen en las pantallas, en
           la actualidad, refleja la multilocalidad, donde las relaciones se mantienen a
-          través de los medios modernos de comunicación (Dittrich‐Wesbuer et al. 2015),
+          través de los medios modernos de comunicación (Dittrich‐Wesbuer et al. 2015)<sup className="text-[10px] leading-3 shrink-0">[13]</sup>,
           generando distintas formas de relaciones familiares y comunitarias, así
           como sentido de pertenencia, difundiendo, conociendo y apropiándose.
           Los riesgos son latentes, pero las transformaciones son eminentes.
@@ -321,19 +321,19 @@ export default async function ArticuloPage() {
           Se dejan planteadas algunas reflexiones y la invitación a continuar profundizando
           sobre el espacio digital en los territorios rurales desde el enfoque intercultural,
           que plantea la interacción equitativa de diversas culturas y la posibilidad de
-          generar expresiones culturales compartidas a través del diálogo y el respeto mutuo,
+          generar expresiones culturales compartidas a través del diálogo y el respeto mutuo<sup className="text-[10px] align-super">[14]</sup>,
           que permita reconocer las distintas relaciones intergeneracionales actuales que van
           surgiendo entre el fogón, la oralidad territorial y el espacio digital a
           través de la redes social.
           <div className="mt-10 pt-2 border-t border-gray-400 space-y-2" role="list">
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">13.</span>
+              <span className="text-[10px] leading-3 shrink-0">[13]</span>
               <span className="text-sm text-gray-600">
                 Citado en <i>Multilocalidad en zonas rurales: un fenómeno subestimado</i>.
               </span>
             </div>
             <div className="flex items-start gap-2">
-              <span className="text-[10px] leading-3 shrink-0">14.</span>
+              <span className="text-[10px] leading-3 shrink-0">[14]</span>
               <span className="text-sm text-gray-600">
                 Fuente: Artículo 4.8 de la Convención sobre la Protección y Promoción de la Diversidad de las
                 Expresiones Culturales. UNESCO.
