@@ -4,16 +4,18 @@ export default async function ArticuloPage() {
 
   return (
     <div className="max-w-4xl mx-auto bg-gray-100 text-gray-900 p-6 md:p-10 rounded-xl shadow-lg mt-10">
-      <h1 className="text-3xl md:text-4xl font-bold mb-2 font-heading">
-        "Entre el fogón y el espacio digital: Relaciones intergeneracionales en la ruralidad actual"
+      <h1 className="text-3xl md:text-4xl text-center font-bold mb-2 font-heading">
+        Entre el fogón y el espacio digital
       </h1>
-      <p className="text-black-600 font-semibold mb-2 text-left">María Elena Acosta M.</p>
-      <p className="italic mb-6">Profesora Maestría de Estudios Urbanos<br />FLACSO Ecuador</p>
-
+      {"\n"}
+      <h1 className="text-3xl md:text-4xl text-center font-bold mb-2 font-heading">
+        Relaciones intergeneracionales en la ruralidad actual
+      </h1>
+      <p className="text-black-600 text-3xl md:text-2xl font-semibold mb-2 text-center">María Elena Acosta M.- 31 julio 2025</p>
       <article className="space-y-6 text-justify leading-relaxed text-gray-800 whitespace-pre-wrap">
         <p>
           <b>Introducción</b>
-          {"\n\n"}
+          {"\n"}
           Este artículo explora cómo personas de distintas generaciones de la ruralidad viven las transformaciones
           del territorio y de las ontologías relacionales en la vida cotidiana, que se expresan entre los relatos
           orales territoriales alrededor del fogón (el fuego) y las narrativas en el espacio digital a
@@ -100,31 +102,39 @@ export default async function ArticuloPage() {
           sociales y desarrollan un sentido de solidaridad y pertenencia. Por ejemplo, en los territorios
           rurales de la costa se encuentra los amorfinos, en la sierra los Raymi
           (Inti Raymi, Killa Raymi, Pawkar Raymi), entre otros.
+          {"\n\n"}
           <b>Las narrativas digitales desde la ruralidad</b>
           {/* Bloque de notas al pie */}
-          <div className="mt-10 pt-4 border-t border-gray-400">
-            <ol className="text-xs text-gray-600 space-y-2 list-decimal list-inside">
-              <li>
+          <div className="mt-10 pt-4 border-t border-gray-400 space-y-2" role="list">
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">1.</span>
+              <span className="text-sm text-gray-600">
                 Según Reascos Nelson la oscilación identitaria, característica de los ethos barrocos,
                 en el inconsciente la población mestiza va entre la identidad de los pueblos originarios y lo llamado blanco.
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">2.</span>
+              <span className="text-sm text-gray-600">
                 Historia Agraria de América Latina Revista Internacional sobre la historia de las sociedades rurales
                 latinoamericanas 2023.
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">3.</span>
+              <span className="text-sm text-gray-600">
                 Consejo Regional Indígena del Cauca. 2023. El fogón, un espacio sagrado.{" "}
                 <a
                   href="https://www.cric-colombia.org/portal/el-fogon-un-espacio-sagrado/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target="_blank" rel="noopener noreferrer"
                   className="text-blue-600 underline"
                 >
                   https://www.cric-colombia.org/portal/el-fogon-un-espacio-sagrado/
                 </a>
-              </li>
-            </ol>
+              </span>
+            </div>
           </div>
+
           {"\n\n"}
 
           Si bien se insiste en evidenciar las brechas en el acceso al mundo digital y a la tecnología,
@@ -162,19 +172,26 @@ export default async function ArticuloPage() {
           plataformas ofrecen contenido relevante y accesible que les permiten aprender
           habilidades necesarias para desarrollarse profesionalmente o emprender sus propios proyectos”.
           {/* Bloque de notas al pie que continúa numeración */}
-          <div className="mt-10 pt-4 border-t border-gray-400">
-            <ol start={4} className="text-xs text-gray-600 space-y-2 list-decimal list-inside">
-              <li>
-                Unión Internacional de Telecomunicaciones.
-              </li>
-              <li>
-                Citado en DOI 10.17141/mundosplurales.2.2022.5586
-              </li>
-              <li>
+          {/* Bloque de notas al pie que continúa numeración */}
+          <div className="mt-10 pt-4 border-t border-gray-400 space-y-2" role="list">
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">4.</span>
+              <span className="text-sm text-gray-600">Unión Internacional de Telecomunicaciones.</span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">5.</span>
+              <span className="text-sm text-gray-600">Citado en DOI 10.17141/mundosplurales.2.2022.5586</span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">6.</span>
+              <span className="text-sm text-gray-600">
                 Waters, William F., Martin Baca, Shirley Tipanquiza, y Emily McGrath. 2022.
                 «Cambio De Identidad Y Uso De Facebook En Adolescentes Y jóvenes indígenas De La Sierra Central Ecuatoriana».
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">7.</span>
+              <span className="text-sm text-gray-600">
                 <a
                   href="https://juventudesrurales.iica.int/juventudes-rurales-y-su-acceso-a-las-redes-sociales/"
                   target="_blank" rel="noopener noreferrer"
@@ -182,13 +199,17 @@ export default async function ArticuloPage() {
                 >
                   https://juventudesrurales.iica.int/juventudes-rurales-y-su-acceso-a-las-redes-sociales/
                 </a>
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">8.</span>
+              <span className="text-sm text-gray-600">
                 Waters, William F., Martin Baca, Shirley Tipanquiza, y Emily McGrath. 2022.
                 «Cambio De Identidad Y Uso De Facebook En Adolescentes Y jóvenes indígenas De La Sierra Central Ecuatoriana».
-              </li>
-            </ol>
+              </span>
+            </div>
           </div>
+
           {"\n\n"}
           No obstante, el mundo digital conlleva riesgos, la juventud de territorios rurales
           también están expuestos, la falta la una educación digital adecuada los expone a información
@@ -223,9 +244,10 @@ export default async function ArticuloPage() {
           con la cultura oral en los territorios rurales que permanece y es duradera. Si bien
           lo digital conecta no genera vínculos. Las comunidades digitales son comunidades de
           mensajes sin comunidad, generan conexiones, pero no vínculos (Hun 2024).
-          <div className="mt-10 pt-4 border-t border-gray-400">
-            <ol start={9} className="text-xs text-gray-600 space-y-2 list-decimal list-inside">
-              <li>
+          <div className="mt-10 pt-4 border-t border-gray-400 space-y-2" role="list">
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">9.</span>
+              <span className="text-sm text-gray-600">
                 <a
                   href="https://juventudesrurales.iica.int/juventudes-rurales-y-su-acceso-a-las-redes-sociales/"
                   target="_blank" rel="noopener noreferrer"
@@ -233,8 +255,11 @@ export default async function ArticuloPage() {
                 >
                   https://juventudesrurales.iica.int/juventudes-rurales-y-su-acceso-a-las-redes-sociales/
                 </a>
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">10.</span>
+              <span className="text-sm text-gray-600">
                 <a
                   href="https://revistamundodiners.com/mundo-diners-plus/3-indigenas-tik-tok/"
                   target="_blank" rel="noopener noreferrer"
@@ -242,8 +267,11 @@ export default async function ArticuloPage() {
                 >
                   https://revistamundodiners.com/mundo-diners-plus/3-indigenas-tik-tok/
                 </a>
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">11.</span>
+              <span className="text-sm text-gray-600">
                 <a
                   href="https://www.instagram.com/reel/C3gm8PML0wj/?hl=es"
                   target="_blank" rel="noopener noreferrer"
@@ -251,15 +279,17 @@ export default async function ArticuloPage() {
                 >
                   https://www.instagram.com/reel/C3gm8PML0wj/?hl=es
                 </a>
-              </li>
-              <li>
-                como el Colectivo Runa Urbano en Salcedo, el Colectivo Runa Kuna en Cuenca,
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">12.</span>
+              <span className="text-sm text-gray-600">
+                Como el Colectivo Runa Urbano en Salcedo, el Colectivo Runa Kuna en Cuenca,
                 Colectivo Runa Warmikuna Galápagos en Santa Cruz, entre otros.
-              </li>
-            </ol>
+              </span>
+            </div>
           </div>
-
-          {"\n\n"}
+          {"\n"}
           Es posible que lo digital esté poniendo en riesgo la transmisión oral simbólica,
           que se trasmite en comunidad. La potencial desaparición de los símbolos referentes
           remite a la progresiva atomización de la sociedad. La percepción simbólica desaparece
@@ -295,17 +325,22 @@ export default async function ArticuloPage() {
           que permita reconocer las distintas relaciones intergeneracionales actuales que van
           surgiendo entre el fogón, la oralidad territorial y el espacio digital a
           través de la redes social.
-          <div className="mt-10 pt-4 border-t border-gray-400">
-            <ol start={13} className="text-xs text-gray-600 space-y-2 list-decimal list-inside">
-              <li>
+          <div className="mt-10 pt-2 border-t border-gray-400 space-y-2" role="list">
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">13.</span>
+              <span className="text-sm text-gray-600">
                 Citado en <i>Multilocalidad en zonas rurales: un fenómeno subestimado</i>.
-              </li>
-              <li>
+              </span>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="text-[10px] leading-3 shrink-0">14.</span>
+              <span className="text-sm text-gray-600">
                 Fuente: Artículo 4.8 de la Convención sobre la Protección y Promoción de la Diversidad de las
                 Expresiones Culturales. UNESCO.
-              </li>
-            </ol>
+              </span>
+            </div>
           </div>
+
 
           {"\n\n"}
           <b>Referencias bibliográficas</b>
