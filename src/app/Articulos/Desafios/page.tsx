@@ -201,13 +201,13 @@ export default async function ArticuloPage() {
           {"\n\n"}
           Patrouilleau, M., Taraborrelli, D., y Alonso, I. (2021). <i>Los estudios prospectivos y la
             cuestión alimentaria en América Latina: un estado de la cuestión. En Políticas públicas y
-            sistemas alimentarios en América Latina. E-papers/Red PP-AL.</i>. <a href="https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/INTADig_8050014602ec3e3b0746544a4d700cf5" target="_blank" rel="noopener noreferrer">https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/INTADig_8050014602ec3e3b0746544a4d700cf5</a>
+            sistemas alimentarios en América Latina. E-papers/Red PP-AL.</i> <a href="https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/INTADig_8050014602ec3e3b0746544a4d700cf5" target="_blank" rel="noopener noreferrer">https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/INTADig_8050014602ec3e3b0746544a4d700cf5</a>
           {"\n\n"}
           Scott, M., Sturzaker, J., Gallent, N., Parker, G., Burnett, A., y Mell, I. (Eds.) (2025). Rural Planning Futures: Principles, Policy and Practice in the UK and Ireland.
           Routledge.
           {"\n\n"}
           Zhou, X., Wang, H., & Li, Y (2023). Spatial path to achieve urban-rural integration
-          development: A theoretical framework. Habitat International, 134, 102822  <a href="https://doi.org/10.1016/j.habitatint.2023.102822" target="_blank" rel="noopener noreferrer"></a> https://doi.org/10.1016/j.habitatint.2023.102822
+          development: A theoretical framework. Habitat International, 134, 102822  <a href="https://doi.org/10.1016/j.habitatint.2023.102822" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.habitatint.2023.102822</a> 
           {"\n\n"}
         </p>
         <p className="text-center"> <b >             
