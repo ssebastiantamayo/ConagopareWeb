@@ -389,11 +389,22 @@ export default async function ArticuloPage() {
                   Transparencia con rostro rural: hacia una justicia informativa desde los territorios
                 </h4>
                 <span className="bg-black text-white text-xs font-bold px-2 py-1 rounded inline-block mb-1">
-                  IRMA JARA IÑIGUEZ
+                 Irma Jara Iñiguez
                 </span>
-                <p className="text-sm text-gray-500 italic">
-                  Profesora e Investigadora · Instituto de Altos Estudios Nacionales (IAEN)
-                </p>
+
+              </div>
+            </div>
+          </Link>
+          {/* Artículo 1 */}
+          <Link href="/Articulos/Desafios" className="block group">
+            <div className="flex bg-white shadow border border-gray-200 rounded-lg overflow-hidden hover:bg-gray-50 transition">
+              <div className="p-3 flex-1 text-left">
+                <h4 className="text-base font-semibold text-gray-900 leading-snug group-hover:underline mb-1">
+                  Desafíos de base Rural para enfrentar los futuros territoriales.
+                </h4>
+                <span className="bg-black text-white text-xs font-bold px-2 py-1 rounded inline-block mb-1">
+                  Diego Martínez Godoy
+                </span>
               </div>
             </div>
           </Link>
