@@ -85,3 +85,32 @@ body {
 .font-heading {
   font-family: var(--font-heading), sans-serif;
 }
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-shine {
+  background-size: 200% 100%;
+  animation: shine 10s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
