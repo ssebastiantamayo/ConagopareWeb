@@ -54,7 +54,7 @@ function closeAllSubmenus() {
       ],
     },
     { href: "/Entrevistas", label: "Entrevistas" },
-    { href: "/Mujeres_Rurales", label: "Mujeres Rurales" },
+    { href: "/Mujeres_Rurales", label: "Mandato Mujeres Rurales" },
     { href: "/Datos_Rurales", label: "Datos Rurales" },
     {
       label: "Difunde",

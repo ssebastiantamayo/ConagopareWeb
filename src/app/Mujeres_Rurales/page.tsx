@@ -1,4 +1,5 @@
 "use client";
+import EjesPowerBI from "@/components/EjesPowerBI";
 
 import { useEffect, useState } from "react";
 import {
@@ -142,7 +143,7 @@ export default function MujeresRuralesPage() {
     scales: {
       y: {
         beginAtZero: true,
-        ticks: { stepSize:20 },
+        ticks: { stepSize: 20 },
       },
     },
   };
@@ -162,9 +163,18 @@ export default function MujeresRuralesPage() {
 
   return (
     <div className="w-full max-w-6xl p-6 mx-auto ">
+            <section >
+
+        {/* Tabs y dashboards */}
+        <div className="mt-1">
+          <EjesPowerBI />
+        </div>
+
+      </section>
       <h1 className="text-3xl font-heading text-center mb-6">
         Mujeres Presidentas
       </h1>
+      
       <p className="text-center max-w-3xl mx-auto px-8 mb-10">
         El liderazgo femenino en las parroquias rurales refleja la fuerza, perseverancia y compromiso de las mujeres con el desarrollo de sus comunidades.
       </p>
@@ -178,24 +188,24 @@ export default function MujeresRuralesPage() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-<select
-  value={region}
-  onChange={(e) => {
-    const value = e.target.value;
-    if (value === "NACIONAL") {
-      limpiarFiltros();
-    } else {
-      setRegion(value);
-    }
-  }}
-  className="px-4 py-2 bg-white shadow-xl rounded-xl outline-none focus:ring-2 focus:ring-blue-400"
->
-  <option value="">Escoge una región</option>
-  <option value="NACIONAL">NACIONAL</option>
-  {valoresUnicos("REGIÓN").map((r) => (
-    <option key={r} value={r}>{r}</option>
-  ))}
-</select>
+          <select
+            value={region}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (value === "NACIONAL") {
+                limpiarFiltros();
+              } else {
+                setRegion(value);
+              }
+            }}
+            className="px-4 py-2 bg-white shadow-xl rounded-xl outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            <option value="">Escoge una región</option>
+            <option value="NACIONAL">NACIONAL</option>
+            {valoresUnicos("REGIÓN").map((r) => (
+              <option key={r} value={r}>{r}</option>
+            ))}
+          </select>
 
           <select value={provincia} onChange={(e) => handleProvinciaChange(e.target.value)} className="px-4 py-2 bg-white shadow-xl rounded-xl outline-none focus:ring-2 focus:ring-blue-400">
             <option value="">Escoge una provincia</option>
@@ -225,7 +235,13 @@ export default function MujeresRuralesPage() {
             Limpiar filtros
           </button>
         </div>
-
+        {/* Pie de sección */}
+        <div className="mt-3 text-center text-sm text-black/60">
+          <p>
+            Datos visualizados mediante tableros desarrollados por <strong>CONAGOPARE</strong>.
+            Los informes son de libre acceso para consulta ciudadana y fortalecimiento de políticas públicas.
+          </p>
+        </div>
         <div className="w-full max-w-2xl h-[400px] mx-auto p-5 mb-10">
           <Bar data={chartData} options={chartOptions} />
         </div>
@@ -338,6 +354,8 @@ export default function MujeresRuralesPage() {
           className="rounded-md border shadow"
         ></iframe>
       </div>
+      {/* --- NUEVA SECCIÓN: DASHBOARDS POWER BI POR EJES --- */}
+
     </div>
   );
 }
