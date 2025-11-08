@@ -350,7 +350,7 @@ export default function TallerPeriodismoPage() {
         <div className="mt-8 space-y-3 text-left">
           <p className="text-gray-100 text-base md:text-lg">
             🗓️ <strong>Fecha límite:</strong>{" "}
-            <span className="text-[#00ffb2] font-semibold">15 de noviembre de 2025</span>
+            <span className="text-[#00ffb2] font-semibold">7 de diciembre del 2025</span>
           </p>
           <p className="text-gray-100 text-base md:text-lg">
             ✉️ <strong>Correo:</strong>{" "}
